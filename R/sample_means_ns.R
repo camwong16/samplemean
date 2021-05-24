@@ -1,12 +1,13 @@
-#' Produces the string for one day of the song.
+#' Produces multiple sample means from a vector of data for multiple sample sizes sample size.
 #'
-#' @param vec A vector of numerial data
+#' @param vec A vector of numerical data
 #' @param reps The number of sample means you want for all sample sizes specified in ns
-#' @param ns A vector of different sample sizes you want means from.
+#' @param ns A vector of different sample sizes you want means from
 #'
-#' @return A dataframe with a vector of sample means for a corresponding n(s) listed in vector ns.
+#' @return A data.frame with a vector of sample means for a corresponding n(s) listed in vector ns.
 #'
-#' @import tidyverse
+#' @import purrr
+#' @import dplyr
 #' @import utils
 #'
 #' @export

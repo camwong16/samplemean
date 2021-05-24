@@ -5,7 +5,8 @@
 #'
 #' @return A sample mean from vec with sample size of n.
 #'
-#' @import tidyverse
+#' @import purrr
+#' @import dplyr
 #' @import utils
 #'
 #' @export

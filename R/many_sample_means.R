@@ -6,7 +6,8 @@
 #'
 #' @return A list of sample means.
 #'
-#' @import tidyverse
+#' @import purrr
+#' @import dplyr
 #' @import utils
 #'
 #' @export
